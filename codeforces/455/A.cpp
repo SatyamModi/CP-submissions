@@ -74,23 +74,73 @@ bool prime(ll n, vector<bool> &isPrime, vector<bool> &done) {
 	}
 }
 
+ll fun(vector<ll> &v, ll i, map<ll,ll> &freq, vector<ll> &csum) {
+	ll n = v.size();
+	if (i == n) {
+		return 0;
+	}
+
+	if (csum[i] != -1) {
+		return csum[i];
+	}
+
+	if (i == n-1) {
+		csum[i] = v[i]*freq[v[i]];
+		return csum[i];
+	} else {
+		ll c1 = v[i]*freq[v[i]] + fun(v, i+2, freq, csum);
+		ll c2 = fun(v, i+1, freq, csum);
+		csum[i] = max(c1, c2);
+		return csum[i];
+	}
+}
 
 void solve() {
 
-	int n;
+	ll n;
 	cin >> n;
-	vector<ll> a(1e5+1, 0);
-	int x;
+
+	vector<ll> a(n, 0);
+	map<ll,ll> freq;
+	for(int i = 0; i <n; i++) {
+		cin >> a[i];
+		freq[a[i]] = 0;
+	}
+
+	// first sort the array , then find the consecutive 
+	// elements and form a group. There can be more than 
+	// one group formed. This means we need to look for each group
+	// individually.
+	sort(a.begin(), a.end());
+
+	set<ll> s(a.begin(), a.end());
+	vector<ll> uniq(s.begin(), s.end());
+
+	// get unique elements from the array
+	sort(uniq.begin(), uniq.end());
+
+	// get frequency of each element
 	for (int i = 0; i < n; i++) {
-		cin >> x;
-		a[x] += x;
+		freq[a[i]]++;
 	}
 
-	for (int i = 2; i < 1e5+1; i++) {
-		a[i] = max(a[i]+a[i-2], a[i-1]);
+	int i = 0;
+	ll c = 0;
+	while (i < uniq.size()) {
+		vector<ll> v;
+		v.push_back(uniq[i]);
+		i += 1;
+		while (i < uniq.size() && uniq[i] == 1 + uniq[i-1]) {
+			v.push_back(uniq[i]);
+			i += 1;
+		}
+
+		vector<ll> csum(v.size(), -1);
+		c += fun(v, 0, freq, csum);
 	}
 
-	cout << a[1e5] << "\n";
+	cout << c << "\n";
+
 }
 
 int main() {
