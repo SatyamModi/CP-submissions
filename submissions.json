@@ -1,4 +1,20 @@
 {
+  "CF184847280": {
+    "contest_id": 703,
+    "language": "GNU C++17",
+    "path": "codeforces/703/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mishka and Game",
+    "problem_url": "https://codeforces.com/contest/703/problem/A",
+    "submission_id": "CF184847280",
+    "submission_url": "https://codeforces.com/contest/703/submission/184847280",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/12/2022 11:01"
+  },
   "CF184847516": {
     "contest_id": 32,
     "language": "GNU C++17",
