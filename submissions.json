@@ -1,4 +1,20 @@
 {
+  "CF185145470": {
+    "contest_id": 1676,
+    "language": "GNU C++17",
+    "path": "codeforces/1676/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky?",
+    "problem_url": "https://codeforces.com/contest/1676/problem/A",
+    "submission_id": "CF185145470",
+    "submission_url": "https://codeforces.com/contest/1676/submission/185145470",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/14/2022 11:49"
+  },
   "CF185146435": {
     "contest_id": 1374,
     "language": "GNU C++17",
