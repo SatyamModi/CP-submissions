@@ -1384,6 +1384,23 @@
     ],
     "timestamp": "Dec/16/2022 12:32"
   },
+  "CF185916352": {
+    "contest_id": 1690,
+    "language": "GNU C++17",
+    "path": "codeforces/1690/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Print a Pedestal (Codeforces logo?)",
+    "problem_url": "https://codeforces.com/contest/1690/problem/A",
+    "submission_id": "CF185916352",
+    "submission_url": "https://codeforces.com/contest/1690/submission/185916352",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Dec/19/2022 12:21"
+  },
   "CF185917182": {
     "contest_id": 978,
     "language": "GNU C++17",
