@@ -1384,6 +1384,24 @@
     ],
     "timestamp": "Dec/16/2022 12:32"
   },
+  "CF186276849": {
+    "contest_id": 1760,
+    "language": "GNU C++17",
+    "path": "codeforces/1760/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Atilla's Favorite Problem",
+    "problem_url": "https://codeforces.com/contest/1760/problem/B",
+    "submission_id": "CF186276849",
+    "submission_url": "https://codeforces.com/contest/1760/submission/186276849",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Dec/21/2022 22:43"
+  },
   "CF186280389": {
     "contest_id": 1529,
     "language": "GNU C++17",
