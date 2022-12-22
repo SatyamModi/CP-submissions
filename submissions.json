@@ -1384,6 +1384,23 @@
     ],
     "timestamp": "Dec/16/2022 12:32"
   },
+  "CF186362651": {
+    "contest_id": 1328,
+    "language": "GNU C++17",
+    "path": "codeforces/1328/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ternary XOR",
+    "problem_url": "https://codeforces.com/contest/1328/problem/C",
+    "submission_id": "CF186362651",
+    "submission_url": "https://codeforces.com/contest/1328/submission/186362651",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Dec/22/2022 19:51"
+  },
   "CF186366123": {
     "contest_id": 1551,
     "language": "GNU C++17",
