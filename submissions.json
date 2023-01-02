@@ -1383,5 +1383,21 @@
       "*800"
     ],
     "timestamp": "Dec/16/2022 12:32"
+  },
+  "CF187620935": {
+    "contest_id": 1554,
+    "language": "GNU C++17",
+    "path": "codeforces/1554/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cherry",
+    "problem_url": "https://codeforces.com/contest/1554/problem/A",
+    "submission_id": "CF187620935",
+    "submission_url": "https://codeforces.com/contest/1554/submission/187620935",
+    "tags": [
+      "greedy",
+      "*800"
+    ],
+    "timestamp": "Jan/02/2023 19:25"
   }
 }
